@@ -15,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <img
-            src=/lusean-logo.jpg"
+            src="/lusean-logo.jpg"
             alt="Lusean Child's Foundation logo"
             width={1920}
             height={1920}
