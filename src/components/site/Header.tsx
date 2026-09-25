@@ -4,7 +4,7 @@ import { Menu, X, Heart } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { nav, org } from "@/content/site";
-import logoAsset from "@/assets/lusean-logo.jpg.asset.json";
+
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -15,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <img
-            src={logoAsset.url}
+            src=/lusean-logo.jpg"
             alt="Lusean Child's Foundation logo"
             width={1920}
             height={1920}
