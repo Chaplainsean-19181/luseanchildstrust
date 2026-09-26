@@ -523,8 +523,8 @@ export const impactStories: ImpactStory[] = [
     ],
     support: ["1 borehole", "2 staff toilets", "100 textbooks", "26 pairs of school shoes"],
     themes: ["Education", "Water", "Sanitation", "Dignity", "Practical Support"],
-    image: photos.boreholeCommunity,
-    imageAlt: photoAlt.boreholeCommunity,
+    image: photos.staffToilets,
+    imageAlt: photoAlt.staffToilets
     relatedProject: "lupili-primary-school",
   },
   {
