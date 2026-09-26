@@ -3,7 +3,7 @@ import { Facebook, Mail, MapPin, Phone, Youtube } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { contactStatus, nav, org } from "@/content/site";
-import logoAsset from "@/assets/lusean-logo.jpg.asset.json";
+
 
 export function Footer() {
   return (
@@ -14,7 +14,7 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <div className="rounded-2xl bg-white p-2">
               <img
-                src={logoAsset.url}
+                src="/lusean-logo.jpeg"
                 alt="Lusean Child's Foundation logo"
                 loading="lazy"
                 width={1920}
