@@ -22,15 +22,15 @@
 
 /** Authentic Lusean Child's Trust Foundation documentary photographs. */
 export const photos = {
- boreholeCommunity: boreholeCommunityAsset.url,
- boreholePlaque: boreholePlaqueAsset.url,
-  staffToilets: toiletAsset.url,
-  booksAndShoes: booksShoesAsset.url,
-  feeding: feedingAsset.url,
-  schoolShoes: shoeAsset.url,
-  textbooks: textbooksAsset.url,
-  wusakileOutreach: wusakileAsset.url,
-  schoolEngagement: engagementAsset.url,
+ boreholeCommunity: "/Borehole_Lupili_2.jpeg",
+ boreholePlaque: "/Borehole_Lupili_EV.jpeg",
+staffToilets: "/Lupili_toilet_web.jpeg",
+  booksAndShoes: "/Lupili_text_book_shoes_web.jpeg",
+  feeding: "/Feeding.jpeg",
+  schoolShoes: "/Shoe.jpeg",
+  textbooks: "/Text_books.jpeg",
+  wusakileOutreach: "/Wusakile_Outreach.jpeg",
+  schoolEngagement: "/Rv_web_1.jpeg",
 };
 
 const education = photos.textbooks;
@@ -39,8 +39,8 @@ const mentorship = photos.schoolShoes;
 const school = photos.booksAndShoes;
 const feeding = photos.feeding;
 const heroChildren = photos.schoolEngagement;
-import founderPhoto from "@/assets/founder.jpeg.asset.json";
-import assistantDirectorPhoto from "@/assets/assistant-director.jpeg.asset.json";
+const founderPhoto = { url: "/chaplain-sean-chirwa.jpeg" };
+const assistantDirectorPhoto = { url: "/chaplain-luyando-sean.jpeg" };
 
 export const org = {
   name: "Lusean Child's Trust Foundation",
