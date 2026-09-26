@@ -14,7 +14,7 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <div className="rounded-2xl bg-white p-2">
               <img
-                src="/lusean-logo.jpeg"
+                src="/lusean-logo.jpg"
                 alt="Lusean Child's Foundation logo"
                 loading="lazy"
                 width={1920}
