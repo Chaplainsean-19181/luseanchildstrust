@@ -18,20 +18,12 @@
  * content automatically hide themselves or show an editable placeholder.
  */
 
-import boreholeCommunityAsset from "@/assets/Borehole_Lupili_2.jpeg.asset.json";
-import boreholePlaqueAsset from "@/assets/Borehole_Lupili_EV.jpeg.asset.json";
-import toiletAsset from "@/assets/Lupili_toilet_web.jpeg.asset.json";
-import booksShoesAsset from "@/assets/Lupili_text_book_shoes_web.jpeg.asset.json";
-import feedingAsset from "@/assets/Feeding.jpeg.asset.json";
-import shoeAsset from "@/assets/Shoe.jpeg.asset.json";
-import textbooksAsset from "@/assets/Text_books.jpeg.asset.json";
-import wusakileAsset from "@/assets/Wusakile_Outreach.jpeg.asset.json";
-import engagementAsset from "@/assets/Rv_web_1.jpeg.asset.json";
+
 
 /** Authentic Lusean Child's Trust Foundation documentary photographs. */
 export const photos = {
-  boreholeCommunity: boreholeCommunityAsset.url,
-  boreholePlaque: boreholePlaqueAsset.url,
+ boreholeCommunity: boreholeCommunityAsset.url,
+ boreholePlaque: boreholePlaqueAsset.url,
   staffToilets: toiletAsset.url,
   booksAndShoes: booksShoesAsset.url,
   feeding: feedingAsset.url,
