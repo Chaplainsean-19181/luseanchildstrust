@@ -803,6 +803,14 @@ export const mobileMoney = {
   number: "+260 963 423 836",
 };
 
+/** Verified Zelle details for donors in the United States. */
+export const zelleDetails = {
+  provider: "Zelle",
+  recipientName: "Sean Chirwa",
+  email: "seanchirwa@yahoo.co.uk",
+  region: "United States",
+};
+
 /**
  * Donation channels are verified. No online payment gateway is connected yet,
  * so the website never simulates or confirms a payment.
