@@ -22,6 +22,7 @@ import {
   givingTiers,
   impactAreas,
   mobileMoney,
+  zelleDetails,
   photos,
 } from "@/content/site";
 
@@ -214,6 +215,7 @@ function Donate() {
               <p className="flex items-center gap-2 text-eyebrow text-primary">
                 <Globe2 className="size-4" /> International donations
               </p>
+              
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 International donors should use SWIFT Code{" "}
                 <span className="font-semibold text-foreground">{bankDetails.swift}</span>. If your
@@ -223,6 +225,15 @@ function Donate() {
                 </a>
                 .
               </p>
+             <div className="mt-6 rounded-xl border border-border bg-muted/40 p-5">
+  <p className="text-eyebrow text-primary">Donate with Zelle — United States</p>
+  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+    U.S. donors can send donations through Zelle to{" "}
+    <span className="font-semibold text-foreground">{zelleDetails.recipientName}</span>{" "}
+    using the email{" "}
+    <span className="font-semibold text-foreground">{zelleDetails.email}</span>.
+  </p>
+</div> 
             </div>
           </div>
 
