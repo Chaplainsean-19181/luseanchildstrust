@@ -123,7 +123,66 @@ function About() {
           </div>
         </div>
       </Section>
+      <Section id="registration-journey">
+        <SectionHeading
+          eyebrow="Our Legal Registration"
+          title="Our Registration Journey"
+          description="Our history, growth and commitment to transparency."
+          align="center"
+        />
 
+        <div className="mx-auto mt-10 max-w-4xl rounded-2xl border border-border bg-card p-8 shadow-soft">
+          <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
+            <p>
+              Lusean’s work was initially established under{" "}
+              <strong>Lusean Child’s Trust Foundation</strong>, incorporated
+              in Zambia as a company limited by guarantee through the
+              Patents and Companies Registration Agency (PACRA).
+            </p>
+
+            <p>
+              As the organization developed its humanitarian mission,{" "}
+              <strong>Lusean Child’s Hope Foundation</strong> was
+              subsequently registered as a Non-Governmental Organization
+              with the Registrar for NGOs under the Ministry of Community
+              Development and Social Services.
+            </p>
+
+            <p>
+              Both registrations form part of Lusean’s organizational
+              history and governance framework. Lusean Child’s Hope
+              Foundation serves as the organization’s registered NGO
+              identity for its humanitarian and community-development work.
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            <div className="rounded-xl border border-border bg-muted/40 p-5">
+              <p className="text-sm font-semibold text-foreground">
+                PACRA Registration
+              </p>
+              <p className="mt-2 text-lg font-bold text-primary">
+                120230052788
+              </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Lusean Child’s Trust Foundation — June 2023
+              </p>
+            </div>
+
+            <div className="rounded-xl border border-border bg-muted/40 p-5">
+              <p className="text-sm font-semibold text-foreground">
+                NGO Registration
+              </p>
+              <p className="mt-2 text-lg font-bold text-primary">
+                RNGO 101/2779/2026
+              </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Lusean Child’s Hope Foundation — October 2026
+              </p>
+            </div>
+          </div>
+        </div>
+      </Section>
       <Section id="leadership">
         <SectionHeading
           eyebrow="Leadership"
