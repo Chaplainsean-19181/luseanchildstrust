@@ -281,7 +281,32 @@ function Donate() {
                 </Button>
               </div>
             </div>
+<div className="rounded-2xl border border-border bg-card p-7 shadow-soft sm:p-9">
+  <h2 className="font-display text-xl font-bold">
+    Donations and Banking Transparency
+  </h2>
 
+  <div className="mt-4 space-y-4 text-sm leading-relaxed text-muted-foreground">
+    <p>
+      Donations through our existing bank transfer channel are received
+      into an account held in the registered name of Lusean Child’s
+      Trust Foundation.
+    </p>
+
+    <p>
+      Lusean Child’s Trust Foundation was incorporated in Zambia in
+      June 2023 as a company limited by guarantee. Lusean Child’s
+      Hope Foundation subsequently obtained NGO registration in
+      October 2026.
+    </p>
+
+    <p>
+      We are committed to maintaining transparent financial records,
+      responsible stewardship and accountability in supporting
+      Lusean’s humanitarian mission.
+    </p>
+  </div>
+</div>
             <div className="grid gap-4">
               {[
                 {
