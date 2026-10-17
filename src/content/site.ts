@@ -636,7 +636,19 @@ export const videos: FoundationVideo[] = [
   { id: "3XefBT_OFlM", title: "Lusean Child's Trust Foundation — Lusean in Action (1)" },
   { id: "aUi6CQXsmL0", title: "Lusean Child's Trust Foundation — Lusean in Action (2)" },
   { id: "0TYMClfHn7o", title: "Lusean Child's Trust Foundation — Lusean in Action (3)" },
-];
+
+  {
+    id: "PrY_b2N9nxQ",
+    title: "Jesus Loves the Little Children — Every Child Is Precious",
+    description:
+      "Every child is precious, loved, and worthy of care. Inspired by Matthew 19:14, Lusean Child's Trust Foundation brings hope, dignity, and opportunities to vulnerable children through practical expressions of Christ's love.",
+  },
+  {
+    id: "r3_EQPzbGR8",
+    title: "When You Welcome Jesus — Embracing Children with Love",
+    description:
+      "Inspired by Matthew 18:5, we believe that welcoming and caring for children is a meaningful expression of Christian faith. Together, we can help children feel loved, valued, protected, and encouraged to reach their potential.",
+  },];
 
 /** Verified official YouTube channel (from the social media configuration). */
 export const youtubeChannel =
