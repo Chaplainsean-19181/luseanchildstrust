@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
 import { PageHero, Section, SectionHeading } from "@/components/site/Layout";
-import { contactStatus, org, registration, photos } from "@/content/site";
+import { contactStatus, org, photos } from "@/content/site";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -154,11 +154,19 @@ function Contact() {
               </div>
             </div>
 
-            {!registration.verified ? (
-              <p className="mt-8 text-xs leading-relaxed text-muted-foreground">
-                {registration.placeholder}
-              </p>
-            ) : null}
+           <div className="mt-8 text-xs leading-relaxed text-muted-foreground">
+  <p className="font-semibold text-foreground">
+    Our Registration and Governance
+  </p>
+  <p className="mt-2">
+    PACRA Registration: Lusean Child's Trust Foundation —
+    120230052788 (June 2023).
+  </p>
+  <p className="mt-2">
+    NGO Registration: Lusean Child's Hope Foundation —
+    RNGO 101/2779/2026 (October 2026).
+  </p>
+</div>
           </div>
 
           <form
