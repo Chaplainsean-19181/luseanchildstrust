@@ -71,7 +71,7 @@ export const org = {
  */
 export const contactStatus = {
   verified: true,
-  email: "luseanchildstrust@gmail.com",
+ email:"info@luseanchildstrust.org",
   /** Primary number (kept for simple single-number displays). */
   phone: "+260 977 657 855",
   phones: [
