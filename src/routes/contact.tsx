@@ -74,6 +74,23 @@ function Contact() {
                   {contactStatus.email}
                 </a>
               </li>
+             <li className="flex gap-4">
+  <Mail className="mt-1 size-5 shrink-0 text-primary" />
+  <span>
+    <span className="block font-semibold">
+      Office of the Founder & Executive Director
+    </span>
+    <span className="block text-sm text-muted-foreground">
+      Chaplain Sean Chirwa
+    </span>
+    <a
+      href="mailto:chaplainsean@luseanchildstrust.org"
+      className="break-all hover:text-primary"
+    >
+      chaplainsean@luseanchildstrust.org
+    </a>
+  </span>
+</li>
               {contactStatus.phones.map((p) => (
                 <li key={p.number} className="flex gap-4">
                   <Phone className="mt-1 size-5 shrink-0 text-primary" />
